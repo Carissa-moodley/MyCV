@@ -10,14 +10,20 @@ body {
     
 }
 
+/*Define layout proportions as variables */
+:root{
+    --left-panel-width: 28%;
+    --right-panel-width: 64%;
+}
+
 .leftPanel {
-    width: 28%;
+    width: var(--left-panel-width);
     float: left;
     padding: 20px 25px;
 }
 
 .rightPanel {
-    width: 64%;
+    width: var(--right-panel-width);
     float: right;
     border-radius: 10px;
     padding: 20px 25px;
@@ -33,7 +39,7 @@ body {
 }
 
 .search {
-    width: 28%;
+    width: var(--left-panel-width);
     padding: 10px 25px;
 }
 
@@ -66,6 +72,6 @@ input[type=text], select, textarea {
   
   /* Add a background color and some padding around the form */
   .contact {
-    width: 28%;
+    width: var(--left-panel-width);
     padding: 10px 25px;
   }
