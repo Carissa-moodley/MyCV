@@ -1,3 +1,4 @@
+
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     
@@ -30,17 +31,14 @@ body {
     background-color: #faf6f0;
 }
 
-.AboutMe, .Education, .workExperience {
-    padding: 10px 25px;
-}
-
-.contactdetails, .skills, .interests {
+/*Apply common padding to elements*/
+.contactdetails, .skills, .interests, .contact, .search, .AboutMe, 
+.Education, .workExperience {
     padding: 10px 25px;
 }
 
 .search {
     width: var(--left-panel-width);
-    padding: 10px 25px;
 }
 
 /* Style inputs with type="text", select elements and textareas */
@@ -73,5 +71,4 @@ input[type=text], select, textarea {
   /* Add a background color and some padding around the form */
   .contact {
     width: var(--left-panel-width);
-    padding: 10px 25px;
   }
